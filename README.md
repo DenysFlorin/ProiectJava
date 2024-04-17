@@ -1,45 +1,45 @@
 # Travel Agency
 ### Denys-Florin Cot
 
-## Aplicație pentru administrarea unei agenții de turism
-În funcție de rolul acestora, utlizatorii pot fi clienți sau administratori. Clienții pot folosi aplicația pentru a programa următoarea lor vacanța, așa cum și-o doresc, putând să aleagă diverse destinații, cu propriile hotele și modalități de transport în limita accesibilității acestora. Desigur aceștia vor avea la dispoziție și o serie de oferte gata făcute pentru vizitarea a diverse locații din tările disponibile. Administratorul va putea schimba disponibilitatea diverselor servicii (atât cele de acomodare cât și cele de transport). În plus acesta va avea la dispoziție și catalogul rezervărilor înregistrate în baza de data, putând schimba statusul acestora.
+## Administration aplication for a travel agency
 
-## Obiective
+Depending on their role, users can be either clients or administrators. Clients can use the application to schedule their next vacation as they wish, being able to choose various destinations, along with their own hotels and transportation options within the limits of their accessibility. Of course, they will also have access to a series of ready-made offers for visiting various locations in the available countries. The administrator will be able to change the availability of various services (both accommodation and transportation). Additionally, they will have access to the catalog of bookings recorded in the database, being able to change their status as needed.
 
-* Metodă de înregistrare
-* Metodă de logare
-* Alegerea unei oferte dintr-un set predefinit
-* Crearea propriei oferte prin alegerea destinației și a serviciilor dorite (acomodare și transport).
-* Adăugarea de oferte predefinite.
-* Gestionarea rezervărilor
-* Gestionarea disponibilității unui serviciu
-* Metodă de schimbarea parolei
+## Objectives
 
-## Arhitectura
+* Registration method
+* Login method
+* Choosing an offer from a predefined set
+* Creating your own offer by selecting the destination and desired services (accommodation and transportation).
+* Adding predefined offers.
+* Managing bookings
+* Managing the availability of a service
+* Password change method
 
-Am utilizat framework-ul Java Swing pentru interfața grafică, iar pentru stocarea datelor am utilizat MySQL,
+## Architecture
 
+For the user interface I used the Java Swing framework and for storing the data MySQL was used.
 
-Prototip schema bazei de date
+DataBase Schema
 
 ![Alt text](documentatie-ghid-utlizare-raport/diagramaDB.jpg)
 
 
 
 
-## Functionalitati/Exemple utilizare
-* Adăugarea unei destinații/hotel/companie de transport
-* Modificarea disponibilității unui serviciu/destinație
-* Autentificare/Înregistrare utilizator
-* Gestionarea utilizatorilor și a rezervărilor acestora
-* Adăugarea unei oferte predefinite
-* Alegerea unei oferte predefinite
-* Realizarea propriei oferte
-* Realizarea/anularea unei rezervări
+## Functionality/Usage Examples
+* Adding a destination/hotel/transport company
+* Modifying the availability of a service/destination
+* User authentication/registration
+* Managing users and their bookings
+* Adding a predefined offer
+* Choosing a predefined offer
+* Creating a custom offer
+* Making/canceling a reservation
 
 ![Alt text](documentatie-ghid-utlizare-raport/ex1.png)
 ![Alt text](documentatie-ghid-utlizare-raport/ex2.png)
 ![Alt text](documentatie-ghid-utlizare-raport/ex3.png)
 
-### Resurse
+### Resources
 Markdown Guide, [Online] Available: https://www.markdownguide.org/basic-syntax/ [accesed: Mar 14, 1706]
